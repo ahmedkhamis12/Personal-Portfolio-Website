@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ahmed Khamis | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">Ahmed<span>Khamis</span></div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="theme-toggle" class="btn-outline">🌙</button>
+      <button id="menu-toggle" class="menu-toggle">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <div>
+          <p class="hero-subtitle">Frontend Developer</p>
+          <h1>Hi, I'm <span>Ahmed</span> 👋</h1>
+          <p class="hero-text">
+            I build responsive, user-friendly web interfaces using
+            HTML, CSS, JavaScript, and React.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary">View Projects</a>
+            <a href="#contact" class="btn-outline">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I'm a junior frontend developer from Alexandria, Egypt, with a background
+          in Computer Science and experience in QA and DevOps. I enjoy turning ideas
+          into clean, responsive user interfaces and continuously improving my
+          skills in JavaScript and React.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Frontend</h3>
+            <p>HTML5, CSS3, JavaScript (ES6+), React, Responsive Design</p>
+          </div>
+          <div class="skill-card">
+            <h3>Tools</h3>
+            <p>Git, GitHub, VS Code, Chrome DevTools</p>
+          </div>
+          <div class="skill-card">
+            <h3>Backend Basics</h3>
+            <p>Node.js, Express.js, REST APIs (consumption & testing)</p>
+          </div>
+          <div class="skill-card">
+            <h3>Testing</h3>
+            <p>UI testing, Postman, Selenium (basic)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>
+              A responsive personal portfolio to showcase my skills, experience,
+              and projects using HTML, CSS, and JavaScript.
+            </p>
+            <a href="#" class="project-link">View on GitHub</a>
+          </div>
+          <div class="project-card">
+            <h3>React Task Manager</h3>
+            <p>
+              A task management app built with React, featuring CRUD operations and
+              localStorage persistence.
+            </p>
+            <a href="#" class="project-link">View on GitHub</a>
+          </div>
+          <div class="project-card">
+            <h3>Weather App</h3>
+            <p>
+              JavaScript app that fetches real-time weather data from a public API
+              and displays it with a clean UI.
+            </p>
+            <a href="#" class="project-link">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>If you’d like to work together or have any questions, feel free to reach out.</p>
+        <div class="contact-info">
+          <p>📧 Email: <a href="mailto:akhamis574@gmail.com">akhamis574@gmail.com</a></p>
+          <p>🔗 LinkedIn: <a href="https://linkedin.com/in/ahmed-khamis-686482216" target="_blank">linkedin.com/in/ahmed-khamis</a></p>
+          <p>💻 GitHub: <a href="https://github.com/ahmedkhamis12" target="_blank">github.com/ahmedkhamis12</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Ahmed Khamis. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
